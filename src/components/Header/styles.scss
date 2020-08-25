@@ -1,0 +1,28 @@
+.header
+{
+  color:rgb(83, 83, 83);
+display: flex;
+justify-content: space-between;
+margin: auto;
+width: 50%;
+  
+  
+}
+
+.div-header
+{
+  border-bottom: 1px solid rgb(190, 190, 190);;
+  padding: 30px;
+  // background-color: rgba(255, 255, 255, 0.445);
+ 
+  
+}
+
+li:hover
+{
+background-color: #e52354;
+border-radius: 10px;
+padding: 10px;
+color: white;
+transition: 0.3s;
+}
