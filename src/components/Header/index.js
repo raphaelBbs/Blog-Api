@@ -11,7 +11,7 @@ const Header = (props) => {
         {
         dataCategories.map((todoObject) => (
 
-          <li classname="li" key={todoObject.name}>  <a href={todoObject.route}>{todoObject.label}</a></li>
+          <li className="li" key={todoObject.label}>  <a href={todoObject.route}>{todoObject.label}</a></li>
         ))
       }
       </ul>

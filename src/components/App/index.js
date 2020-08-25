@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../Header';
 import Main from '../Main';
 import Footer from '../Footer';
+import Page404 from '../Page404';
 
 // == Import
 import dataCategories from '../../data/categories';
@@ -17,6 +18,7 @@ class App extends React.Component {
         <Header dataCategories={dataCategories} />
         <Main dataPost={datapost} />
         <Footer />
+        {/* <Page404 /> */}
 
       </div>
     );

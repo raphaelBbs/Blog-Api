@@ -9,12 +9,12 @@ const ErrorPage = (props) => {
   // sinon il sera au singulier
 
   return (
-    <div>
-      <p>ERREUR 404</p>
+    <div className="div-404">
+      <p className="div-404-p"> ERREUR 404</p>
+      <div className="screen" />
     </div>
 
   );
 };
-
 
 export default ErrorPage;
