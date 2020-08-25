@@ -16,8 +16,8 @@ class App extends React.Component {
     return (
       <div className="app">
         <Header dataCategories={dataCategories} />
-        {/* <Main dataPost={datapost} /> */}
-        <Page404 />
+        <Main dataPost={datapost} />
+        {/* <Page404 /> */}
         <Footer />
 
       </div>
